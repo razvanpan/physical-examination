@@ -20,3 +20,4 @@ dist
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+com.training.physical-examination/example/package-lock.json
