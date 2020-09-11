@@ -1,10 +1,15 @@
 import React from 'react'
 
-import { ExampleComponent } from 'com.training.physical-examination'
-import 'com.training.physical-examination/dist/index.css'
-
+import { ClientTableComponent } from 'com.training.physical-examination'
+import 'client-details-library/dist/index.css'
+import {IntlProvider} from 'react-intl';
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  
+  return(
+    <IntlProvider locale="en">
+      <ClientTableComponent />
+    </IntlProvider>
+  )
 }
 
 export default App
