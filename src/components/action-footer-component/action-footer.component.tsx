@@ -3,7 +3,7 @@ import Button from 'terra-button';
 import Spacer from 'terra-spacer';
 import ActionFooter from 'terra-action-footer';
 
-export default () => (
+const PhysicalExaminationFooter = () =>(
 
     <ActionFooter    
       end={(
@@ -17,3 +17,5 @@ export default () => (
     />
  
 );
+
+export default PhysicalExaminationFooter

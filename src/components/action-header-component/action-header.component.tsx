@@ -1,7 +1,7 @@
 /* eslint-disable no-alert */
 import React from 'react';
 import ActionHeader from 'terra-action-header';
-const ActionHeaderExample = () => (
+const PhysicalExaminationHeader = () => (
   <div>
     
     <ActionHeader
@@ -9,4 +9,4 @@ const ActionHeaderExample = () => (
     />
   </div>
 );
-export default ActionHeaderExample;
+export default PhysicalExaminationHeader;
