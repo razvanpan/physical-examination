@@ -5,7 +5,7 @@ import ActionFooter from 'terra-action-footer';
 
 export default () => (
 
-    <ActionFooter style="bottom:0"   
+    <ActionFooter    
       end={(
         <React.Fragment>
           <Spacer isInlineBlock marginRight="medium">

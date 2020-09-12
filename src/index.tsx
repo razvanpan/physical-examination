@@ -3,7 +3,7 @@ import Body from './components/body.component/form.component'
 import ActionFooter from './components/action-footer-component/action-footer.component'
 import ActionHeader from './components/action-header-component/action-header.component'
 
-export const ClientTableComponent = () => {
+export const PhysicalExaminationComponent = () => {
   return (
     <div>
       <ActionHeader/>
