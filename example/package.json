@@ -17,13 +17,20 @@
     "@types/node": "file:../node_modules/@types/node",
     "@types/react": "file:../node_modules/@types/react",
     "@types/react-dom": "file:../node_modules/@types/react-dom",
+    "com.training.physical-examination": "file:..",
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",
+    "react-intl": "^5.8.1",
+    "react-placeholder": "^4.0.3",
     "react-scripts": "file:../node_modules/react-scripts",
-    "typescript": "file:../node_modules/typescript",
-    "com.training.physical-examination": "file:.."
+    "terra-action-footer": "^2.52.0",
+    "terra-action-header": "^2.56.0",
+    "terra-form-input": "^4.3.0",
+    "typescript": "file:../node_modules/typescript"
   },
   "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
     "@babel/plugin-syntax-object-rest-spread": "^7.8.3"
   },
   "eslintConfig": {
