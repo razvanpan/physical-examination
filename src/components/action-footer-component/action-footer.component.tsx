@@ -1,21 +1,13 @@
 import React from 'react';
-import Button from 'terra-button';
-import Spacer from 'terra-spacer';
-import ActionFooter from 'terra-action-footer';
+import BlockActionFooter from 'terra-action-footer/lib/BlockActionFooter';
 
-const PhysicalExaminationFooter = () =>(
+const PhysicalExaminationHeader = () => (
 
-    <ActionFooter    
-      end={(
-        <React.Fragment>
-          <Spacer isInlineBlock marginRight="medium">
-            <Button text="Submit" variant={Button.Opts.Variants.EMPHASIS} />
-          </Spacer>
-          <Button text="Cancel" />
-        </React.Fragment>
-      )}
-    />
- 
+    
+    <BlockActionFooter>
+    <div style={{backgroundColor:"#e5eef9",left:'0',bottom:'0',position:'fixed',width:'100%',
+    height:'14%',borderRadius:"0px 0px 25px 25px",borderTopStyle:'solid',borderTopColor:'#c8def5'}}></div>
+    </BlockActionFooter>
+    
 );
-
-export default PhysicalExaminationFooter
+export default PhysicalExaminationHeader;

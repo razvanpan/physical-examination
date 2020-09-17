@@ -63,8 +63,11 @@
   "dependencies": {
     "node-sass": "^4.14.1",
     "terra-action-footer": "^2.52.0",
-    "terra-action-header": "^2.56.0",
-    "terra-form-input": "^4.3.0"
+    "terra-button": "^3.47.0",
+    "terra-form-textarea": "^5.4.0",
+    "terra-icon": "^3.36.0",
+    "terra-section-header": "^2.42.0",
+    "terra-spacer": "^3.46.0"
   },
   "directories": {
     "example": "example"
