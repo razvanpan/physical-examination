@@ -1,16 +1,15 @@
 import * as React from 'react'
-import Body from './components/body.component/form.component'
-import ActionFooter from './components/action-footer-component/action-footer.component'
-import ActionHeader from './components/action-header-component/action-header.component'
+
+import PhysicalExaminationFooter from './components/action-footer-component/action-footer.component'
+import PhysicalExaminationHeader from './components/action-header-component/action-header.component'
+import PhysicalExaminationForm from './components/body-component/form.component'
 
 export const PhysicalExaminationComponent = () => {
   return (
     <div>
-      <ActionHeader/>
-      <Body/>
-      <ActionFooter/>
-      <br></br>
-      <br></br>
+      <PhysicalExaminationHeader />
+      <PhysicalExaminationForm />
+      <PhysicalExaminationFooter />
     </div>
   )
 }
