@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { PhysicalExaminationComponent } from 'com.training.physical-examination'
+import  PhysicalExaminationComponent  from 'com.training.physical-examination'
 import {IntlProvider} from 'react-intl';
 const App = () => {
   

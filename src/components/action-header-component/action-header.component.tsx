@@ -18,7 +18,9 @@ const PhysicalExaminationHeader = () => (
       height: '10%',
       borderRadius: ' 25px 25px 0px 0px',
       borderBottomStyle: 'solid',
-      borderBottomColor: '#c8def5'
+      borderBottomColor: '#c8def5',
+      minHeight:'60px'
+      
     }}
   >
     <div style={{ float: 'left', marginTop: '25px', marginLeft: '15px' }}>
@@ -26,12 +28,12 @@ const PhysicalExaminationHeader = () => (
     </div>
     <div style={{ float: 'left', marginLeft: '20px' }}>
       <SectionHeaderExampleTemplate
-        title='Physical Examination'
+        title="Physical Examination"
         exampleProps={sectionHeaderProps}
       />
     </div>
     <div style={{ float: 'right', marginTop: '15px', marginRight: '20px' }}>
-      <Button icon={Icon} variant='ghost' />
+      <Button text="" icon={Icon} variant='ghost' />
     </div>
   </div>
 )
