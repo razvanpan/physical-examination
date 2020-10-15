@@ -1,0 +1,31 @@
+.buttons{
+    float: right;
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+
+.footerDiv{
+    background-color: #e5eef9;
+    left: 0;
+    
+    height: 12%;
+    border-radius: 0px 0px 25px 25px;
+    border-top-style: solid;
+    border-top-color: #c8def5;
+    margin-top: -0.81286rem;
+    min-height:70px;
+    margin-left: -0.71429rem;
+    margin-right: -0.71429rem;
+    margin-bottom: -0.64286rem;
+}
+.bottom{
+    
+    left: 0;
+    height: 12%;
+    border-radius: 0px 0px 25px 25px;
+    border-top-style: solid;
+    border-top-color: #c8def5;
+    min-height:70px;
+
+}
