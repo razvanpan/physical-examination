@@ -1,5 +1,6 @@
 import React from 'react'
 import Textarea from 'terra-form-textarea'
+import styles from './form.module.css'
 
 type inputState = {
   inputField: string 
@@ -30,19 +31,13 @@ class PhysicalExaminationForm extends React.Component<{onInput:(name:string)=>vo
   render() {
     return (
       <div
-        style={{
-          
-          padding: '11px',
-          backgroundColor: '#ebf3fb',
-          marginTop: '60px',
-          paddingRight:'25px'
-        }}
+        className={styles.form}
       >
-        <Textarea
-          size='medium'
+        <Textarea className={styles.textarea}
+          size='large'
           defaultValue='Enter Physical Examination'
           id='physical-examination-input'
-          rows={18}
+          rows={6}
           onChange={this.handleChange}
           onInput={this.submitHandler}
         />

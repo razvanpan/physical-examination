@@ -1,6 +1,6 @@
 {
   "name": "com.training.physical-examination",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A pshyscal-examination form with react and terra",
   "author": "MezeiSebastian",
   "license": "MIT",
@@ -69,7 +69,8 @@
     "terra-form-textarea": "^5.4.0",
     "terra-icon": "^3.36.0",
     "terra-section-header": "^2.42.0",
-    "terra-spacer": "^3.46.0"
+    "terra-spacer": "^3.46.0",
+    "terra-text": "^4.36.0"
   },
   "directories": {
     "example": "example"
